@@ -1,3 +1,5 @@
+## SFEAS Readme
+<img src="https://img.shields.io/badge/version-v1.0-brightgreen" />
 prerequisites：
 Microsoft Visual Studio 2022
 intel oneAPI Base Toolkit(must install Intel® oneAPI Math Kernel Library)
