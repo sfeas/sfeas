@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Element\Elem45.cpp" />
+    <ClCompile Include="..\Src\Element\Elem63.cpp" />
+    <ClCompile Include="..\Src\Element\Tools\calStrainExtraMat.cpp" />
+    <ClCompile Include="..\Src\Element\Tools\getBMat45.cpp" />
+    <ClCompile Include="..\Src\Element\Tools\getDetInvMatrix.cpp" />
+    <ClCompile Include="..\Src\Element\Tools\getIndex.cpp" />
+    <ClCompile Include="..\Src\Element\Tools\getNMat45.cpp" />
+    <ClCompile Include="..\Src\Element\Tools\jacobiMat45.cpp" />
+    <ClCompile Include="..\Src\Element\Tools\shapeFunc45.cpp" />
+    <ClCompile Include="..\Src\Global\Files.cpp" />
+    <ClCompile Include="..\Src\Global\GlobalVar.cpp" />
+    <ClCompile Include="..\Src\Global\SolutionVar.cpp" />
+    <ClCompile Include="..\Src\Initialize\ElemList.cpp" />
+    <ClCompile Include="..\Src\Initialize\initCSRIndex.cpp" />
+    <ClCompile Include="..\Src\Initialize\Initialize.cpp" />
+    <ClCompile Include="..\Src\Initialize\LoadsList.cpp" />
+    <ClCompile Include="..\Src\Initialize\OutputList.cpp" />
+    <ClCompile Include="..\Src\Initialize\SoluList.cpp" />
+    <ClCompile Include="..\Src\Initialize\MatList.cpp" />
+    <ClCompile Include="..\Src\Initialize\Tools\guassIntePoint45.cpp" />
+    <ClCompile Include="..\Src\Keyword\KACCE.cpp" />
+    <ClCompile Include="..\Src\Keyword\KANTYPE.cpp" />
+    <ClCompile Include="..\Src\Keyword\KCURVE.cpp" />
+    <ClCompile Include="..\Src\Keyword\KDAMP.cpp" />
+    <ClCompile Include="..\Src\Keyword\KDISP.cpp" />
+    <ClCompile Include="..\Src\Keyword\KEIGSLV.cpp" />
+    <ClCompile Include="..\Src\Keyword\KELEM.cpp" />
+    <ClCompile Include="..\Src\Keyword\KETYPE.cpp" />
+    <ClCompile Include="..\Src\Keyword\KEQUSLV.cpp" />
+    <ClCompile Include="..\Src\Keyword\KFORCE.cpp" />
+    <ClCompile Include="..\Src\Keyword\KFREQ.cpp" />
+    <ClCompile Include="..\Src\Keyword\KGENEOUT.cpp" />
+    <ClCompile Include="..\Src\Keyword\KHISTOUT.cpp" />
+    <ClCompile Include="..\Src\Keyword\KLUMPM.cpp" />
+    <ClCompile Include="..\Src\Keyword\KMAT.cpp" />
+    <ClCompile Include="..\Src\Keyword\KMDAMP.cpp" />
+    <ClCompile Include="..\Src\Keyword\KMODEXT.cpp" />
+    <ClCompile Include="..\Src\Keyword\KNODE.cpp" />
+    <ClCompile Include="..\Src\Keyword\KNSETS.cpp" />
+    <ClCompile Include="..\Src\Keyword\KTAINTM.cpp" />
+    <ClCompile Include="..\Src\Keyword\KTAINTP.cpp" />
+    <ClCompile Include="..\Src\Keyword\KTIME.cpp" />
+    <ClCompile Include="..\Src\Keyword\KVELO.cpp" />
+    <ClCompile Include="..\Src\Loads\DFALoads.cpp" />
+    <ClCompile Include="..\Src\Loads\DTALoads.cpp" />
+    <ClCompile Include="..\Src\Loads\MFALoads.cpp" />
+    <ClCompile Include="..\Src\Loads\MOALoads.cpp" />
+    <ClCompile Include="..\Src\Loads\MTALoads.cpp" />
+    <ClCompile Include="..\Src\Loads\STALoads.cpp" />
+    <ClCompile Include="..\Src\Loads\Tools\getDVAValue.cpp" />
+    <ClCompile Include="..\Src\Loads\Tools\getFixedBnd.cpp" />
+    <ClCompile Include="..\Src\Material\MatIsoElastic.cpp" />
+    <ClCompile Include="..\Src\MathSolver\MathSolver.cpp" />
+    <ClCompile Include="..\Src\Output\GeneralOutput\FAGeneOut.cpp" />
+    <ClCompile Include="..\Src\Output\GeneralOutput\MOAGeneOut.cpp" />
+    <ClCompile Include="..\Src\Output\GeneralOutput\STAGeneOut.cpp" />
+    <ClCompile Include="..\Src\Output\GeneralOutput\TAGeneOut.cpp" />
+    <ClCompile Include="..\Src\Output\HistoryOutput\FAHistOut.cpp" />
+    <ClCompile Include="..\Src\Output\HistoryOutput\MOAHistOut.cpp" />
+    <ClCompile Include="..\Src\Output\HistoryOutput\STAHistOut.cpp" />
+    <ClCompile Include="..\Src\Output\HistoryOutput\TAHistOut.cpp" />
+    <ClCompile Include="..\Src\Output\outputGlobalMatrix.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\acceOutput.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\calESTRA.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\calESTRE.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\calNSTRA.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\calNSTRE.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\dispOutput.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\isGeneOut.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\isHistOut.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\strainOutput.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\stressOutput.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\updateU.cpp" />
+    <ClCompile Include="..\Src\Output\Tools\veloOutput.cpp" />
+    <ClCompile Include="..\Src\Print\printMsg.cpp" />
+    <ClCompile Include="..\Src\sfeasEntry.cpp" />
+    <ClCompile Include="..\Src\Print\Tools\getDateTime.cpp" />
+    <ClCompile Include="..\Src\SFEAS\SFEAS.cpp" />
+    <ClCompile Include="..\Src\SFEAS\Tools\delKeyword.cpp" />
+    <ClCompile Include="..\Src\SFEAS\Tools\getFileFromWindows.cpp" />
+    <ClCompile Include="..\Src\SFEAS\Tools\readInput.cpp" />
+    <ClCompile Include="..\Src\SFEAS\Tools\readKeyword.cpp" />
+    <ClCompile Include="..\Src\Solu\DFASolu.cpp" />
+    <ClCompile Include="..\Src\Solu\DTASolu.cpp" />
+    <ClCompile Include="..\Src\Solu\MFASolu.cpp" />
+    <ClCompile Include="..\Src\Solu\MOASolu.cpp" />
+    <ClCompile Include="..\Src\Solu\MTASolu.cpp" />
+    <ClCompile Include="..\Src\Solu\STASolu.cpp" />
+    <ClCompile Include="..\Src\Solu\Tools\calDamp.cpp" />
+    <ClCompile Include="..\Src\Solu\Tools\calModalGD.cpp" />
+    <ClCompile Include="..\Src\Solu\Tools\getDisVelAcc.cpp" />
+    <ClCompile Include="..\Src\Solu\Tools\getNewAcce.cpp" />
+    <ClCompile Include="..\Src\Solu\Tools\getTimeIntegral.cpp" />
+    <ClCompile Include="..\Src\Timer\Timer.cpp" />
+    <ClCompile Include="..\Src\Timer\Tools\getCPUTime.cpp" />
+    <ClCompile Include="..\Src\Timer\Tools\getWallTime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\DataType\Matrix.h" />
+    <ClInclude Include="..\Src\Element\Elem45.h" />
+    <ClInclude Include="..\Src\Element\Elem63.h" />
+    <ClInclude Include="..\Src\Element\Element.h" />
+    <ClInclude Include="..\Src\Element\Tools\calStrainExtraMat.h" />
+    <ClInclude Include="..\Src\Element\Tools\getBMat45.h" />
+    <ClInclude Include="..\Src\Element\Tools\getDetInvMatrix.h" />
+    <ClInclude Include="..\Src\Element\Tools\getIndex.h" />
+    <ClInclude Include="..\Src\Element\Tools\getNMat45.h" />
+    <ClInclude Include="..\Src\Element\Tools\jacobiMat45.h" />
+    <ClInclude Include="..\Src\Element\Tools\shapeFunc45.h" />
+    <ClInclude Include="..\Src\Global\Files.h" />
+    <ClInclude Include="..\Src\Global\GlobalVar.h" />
+    <ClInclude Include="..\Src\Global\SolutionVar.h" />
+    <ClInclude Include="..\Src\Initialize\ElemList.h" />
+    <ClInclude Include="..\Src\Initialize\initCSRIndex.h" />
+    <ClInclude Include="..\Src\Initialize\Initialize.h" />
+    <ClInclude Include="..\Src\Initialize\LoadsList.h" />
+    <ClInclude Include="..\Src\Initialize\OutputList.h" />
+    <ClInclude Include="..\Src\Initialize\SoluList.h" />
+    <ClInclude Include="..\Src\Initialize\MatList.h" />
+    <ClInclude Include="..\Src\Initialize\Tools\guassIntePoint45.h" />
+    <ClInclude Include="..\Src\Keyword\KACCE.h" />
+    <ClInclude Include="..\Src\Keyword\KANTYPE.h" />
+    <ClInclude Include="..\Src\Keyword\KCURVE.h" />
+    <ClInclude Include="..\Src\Keyword\KDAMP.h" />
+    <ClInclude Include="..\Src\Keyword\KDISP.h" />
+    <ClInclude Include="..\Src\Keyword\KEIGSLV.h" />
+    <ClInclude Include="..\Src\Keyword\KELEM.h" />
+    <ClInclude Include="..\Src\Keyword\KETYPE.h" />
+    <ClInclude Include="..\Src\Keyword\KEQUSLV.h" />
+    <ClInclude Include="..\Src\Keyword\Keyword.h" />
+    <ClInclude Include="..\Src\Keyword\KFORCE.h" />
+    <ClInclude Include="..\Src\Keyword\KFREQ.h" />
+    <ClInclude Include="..\Src\Keyword\KGENEOUT.h" />
+    <ClInclude Include="..\Src\Keyword\KHISTOUT.h" />
+    <ClInclude Include="..\Src\Keyword\KLUMPM.h" />
+    <ClInclude Include="..\Src\Keyword\KMAT.h" />
+    <ClInclude Include="..\Src\Keyword\KMDAMP.h" />
+    <ClInclude Include="..\Src\Keyword\KMODEXT.h" />
+    <ClInclude Include="..\Src\Keyword\KNODE.h" />
+    <ClInclude Include="..\Src\Keyword\KNSETS.h" />
+    <ClInclude Include="..\Src\Keyword\KTAINTM.h" />
+    <ClInclude Include="..\Src\Keyword\KTAINTP.h" />
+    <ClInclude Include="..\Src\Keyword\KTIME.h" />
+    <ClInclude Include="..\Src\Keyword\KVELO.h" />
+    <ClInclude Include="..\Src\Loads\DFALoads.h" />
+    <ClInclude Include="..\Src\Loads\DTALoads.h" />
+    <ClInclude Include="..\Src\Loads\Loads.h" />
+    <ClInclude Include="..\Src\Loads\MFALoads.h" />
+    <ClInclude Include="..\Src\Loads\MOALoads.h" />
+    <ClInclude Include="..\Src\Loads\MTALoads.h" />
+    <ClInclude Include="..\Src\Loads\STALoads.h" />
+    <ClInclude Include="..\Src\Loads\Tools\getDVAValue.h" />
+    <ClInclude Include="..\Src\Loads\Tools\getFixedBnd.h" />
+    <ClInclude Include="..\Src\Material\Material.h" />
+    <ClInclude Include="..\Src\Material\MatIsoElastic.h" />
+    <ClInclude Include="..\Src\MathSolver\MathSolver.h" />
+    <ClInclude Include="..\Src\Output\GeneralOutput\FAGeneOut.h" />
+    <ClInclude Include="..\Src\Output\GeneralOutput\GeneOut.h" />
+    <ClInclude Include="..\Src\Output\GeneralOutput\MOAGeneOut.h" />
+    <ClInclude Include="..\Src\Output\GeneralOutput\STAGeneOut.h" />
+    <ClInclude Include="..\Src\Output\GeneralOutput\TAGeneOut.h" />
+    <ClInclude Include="..\Src\Output\HistoryOutput\FAHistOut.h" />
+    <ClInclude Include="..\Src\Output\HistoryOutput\HistOut.h" />
+    <ClInclude Include="..\Src\Output\HistoryOutput\MOAHistOut.h" />
+    <ClInclude Include="..\Src\Output\HistoryOutput\STAHistOut.h" />
+    <ClInclude Include="..\Src\Output\HistoryOutput\TAHistOut.h" />
+    <ClInclude Include="..\Src\Output\outputGlobalMatrix.h" />
+    <ClInclude Include="..\Src\Output\Tools\acceOutput.h" />
+    <ClInclude Include="..\Src\Output\Tools\calESTRA.h" />
+    <ClInclude Include="..\Src\Output\Tools\calESTRE.h" />
+    <ClInclude Include="..\Src\Output\Tools\calNSTRA.h" />
+    <ClInclude Include="..\Src\Output\Tools\calNSTRE.h" />
+    <ClInclude Include="..\Src\Output\Tools\dispOutput.h" />
+    <ClInclude Include="..\Src\Output\Tools\isGeneOut.h" />
+    <ClInclude Include="..\Src\Output\Tools\isHistOut.h" />
+    <ClInclude Include="..\Src\Output\Tools\strainOutput.h" />
+    <ClInclude Include="..\Src\Output\Tools\stressOutput.h" />
+    <ClInclude Include="..\Src\Output\Tools\updateU.h" />
+    <ClInclude Include="..\Src\Output\Tools\veloOutput.h" />
+    <ClInclude Include="..\Src\Print\PrintMsg.h" />
+    <ClInclude Include="..\Src\Print\Tools\getDataTime.h" />
+    <ClInclude Include="..\Src\SFEAS\SFEAS.h" />
+    <ClInclude Include="..\Src\SFEAS\Tools\delKeyword.h" />
+    <ClInclude Include="..\Src\SFEAS\Tools\getFileFromWindows.h" />
+    <ClInclude Include="..\Src\SFEAS\Tools\readInput.h" />
+    <ClInclude Include="..\Src\SFEAS\Tools\readKeyword.h" />
+    <ClInclude Include="..\Src\Solu\DFASolu.h" />
+    <ClInclude Include="..\Src\Solu\DTASolu.h" />
+    <ClInclude Include="..\Src\Solu\MFASolu.h" />
+    <ClInclude Include="..\Src\Solu\MOASolu.h" />
+    <ClInclude Include="..\Src\Solu\MTASolu.h" />
+    <ClInclude Include="..\Src\Solu\Solu.h" />
+    <ClInclude Include="..\Src\Solu\STASolu.h" />
+    <ClInclude Include="..\Src\Solu\Tools\calDamp.h" />
+    <ClInclude Include="..\Src\Solu\Tools\calModalGD.h" />
+    <ClInclude Include="..\Src\Solu\Tools\getDisVelAcc.h" />
+    <ClInclude Include="..\Src\Solu\Tools\getNewAcce.h" />
+    <ClInclude Include="..\Src\Solu\Tools\getTimeIntegral.h" />
+    <ClInclude Include="..\Src\Timer\Timer.h" />
+    <ClInclude Include="..\Src\Timer\Tools\getCPUTime.h" />
+    <ClInclude Include="..\Src\Timer\Tools\getWallTime.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d7b25d17-e009-48ee-be08-31268937732f}</ProjectGuid>
+    <RootNamespace>SFEAS</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseInteloneMKL>Parallel</UseInteloneMKL>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseInteloneMKL>Parallel</UseInteloneMKL>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>Default</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../Include/eigen-3.4.0;$(SolutionDir)/../Include/spectra-1.0.1/include;$(SolutionDir)/../Include/mumps;$(SolutionDir)/../Src</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <DisableSpecificWarnings>4244;4819;6001;4098;4996;4715</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libdmumps.lib;libzmumps.lib;libmumps_common.lib;libmetis.lib;libpord.lib;libmpiseq.lib;arpack-ng.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>Default</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../Include/eigen-3.4.0;$(SolutionDir)/../Include/spectra-1.0.1/include;$(SolutionDir)/../Include/mumps;$(SolutionDir)/../Src</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <DisableSpecificWarnings>4244;4819;6001;4098;4996;4715</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libdmumps.lib;libzmumps.lib;libmumps_common.lib;libmetis.lib;libpord.lib;libmpiseq.lib;arpack-ng.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

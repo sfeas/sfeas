@@ -1,0 +1,26 @@
+# individual
+
+Data/
+Doc/Tools/
+
+*.rst
+*.plt
+*.hplt
+*.err
+*.log
+*.emat
+*.full
+*.txt
+
+*.vsdx
+
+# picture format
+*.svg
+*.png
+*.bmp
+*.jpg
+*.emf
+
+BuildVS/.vs
+BuildVS/.idea
+BuildVS/x64

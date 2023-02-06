@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Global">
+      <UniqueIdentifier>{113e8fbb-599f-4921-b35c-5727ff5c4205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Global">
+      <UniqueIdentifier>{bfe73f16-dd68-43df-ab11-13d2b7489de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Initialize">
+      <UniqueIdentifier>{387378b8-af1b-4579-87ef-d83a97c5fd2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Initialize">
+      <UniqueIdentifier>{3019ec4b-99d8-41c3-b6b5-00f6e4b32518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Element">
+      <UniqueIdentifier>{f78958bd-b903-49e9-bf8d-4c49c8525e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Element">
+      <UniqueIdentifier>{12fd6e22-da1e-4ccc-b44c-58e8a425c449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Material">
+      <UniqueIdentifier>{a6ee649b-c120-4a3d-b911-6d74314b02e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Material">
+      <UniqueIdentifier>{0f684add-1a88-46b7-8510-f65057f36841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Element\Tools">
+      <UniqueIdentifier>{0b7f0ada-af4c-4204-bcb4-c377c725d261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Output">
+      <UniqueIdentifier>{ebecb8fe-647d-4333-b1eb-e0b27b0a3536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Output">
+      <UniqueIdentifier>{c10a5204-26fc-4ee0-9e46-70d8ccf54ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Keyword">
+      <UniqueIdentifier>{a7820e02-eb0f-4d1e-9517-1003c67a6179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Keyword">
+      <UniqueIdentifier>{e820af11-1b2e-46fa-a3a6-58c7b3efb089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Print">
+      <UniqueIdentifier>{a3828d08-ec4b-4e5c-8805-37fd1fdb46fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Print">
+      <UniqueIdentifier>{b4a9633d-3003-45da-b54f-c5fad05f9541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Loads">
+      <UniqueIdentifier>{0b9f8114-25c4-4959-9756-1a875c3c868e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Loads\Tools">
+      <UniqueIdentifier>{c09409f2-1992-440b-a997-3e304c81ac40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Loads">
+      <UniqueIdentifier>{349cdb55-833b-41ea-959d-83a356bff788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Loads\Tools">
+      <UniqueIdentifier>{ab32c8a7-03ee-4044-8873-466d5c5b364c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MathSolver">
+      <UniqueIdentifier>{5e8408eb-bba4-4647-a961-858070001a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MathSolver">
+      <UniqueIdentifier>{885affb3-c4f3-48c7-bcb9-0ca741da5233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Output\GeneralOutput">
+      <UniqueIdentifier>{352895e3-8c47-4a32-b5f7-960d7fc09ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Output\HistoryOutput">
+      <UniqueIdentifier>{b00794ed-a930-4573-8e4a-fb9afd21a1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Output\GeneralOutput">
+      <UniqueIdentifier>{5180835c-93d9-4192-befc-9ce3d2fff8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Output\HistoryOutput">
+      <UniqueIdentifier>{91d3839a-bef4-44c2-aed2-f00412a588ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Element\Tools">
+      <UniqueIdentifier>{52947ef1-6b0c-4e97-bde4-2cdb01684928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DataType">
+      <UniqueIdentifier>{30cd590f-8515-41f7-b5ab-2c9cfdf9a326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Initialize\Tools">
+      <UniqueIdentifier>{987c72bd-0c05-426e-b3f6-0a82c38100e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Initialize\Tools">
+      <UniqueIdentifier>{2d25b957-414e-483e-9ca8-1e556954a87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Solu">
+      <UniqueIdentifier>{3313f1ca-f74f-41f5-b311-fe66c92f455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Solu\Tools">
+      <UniqueIdentifier>{033dbdd8-c8fc-4a76-a4f5-a8afc8189ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Solu">
+      <UniqueIdentifier>{f9e7d1d0-df6a-48f2-981c-4cd1ccc5ca7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Solu\Tools">
+      <UniqueIdentifier>{3be3d4eb-acbd-4bd1-8688-ebbe4e4a6d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Output\Tools">
+      <UniqueIdentifier>{a2df16ba-0676-4f66-8ac4-c71cd7e70417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Output\Tools">
+      <UniqueIdentifier>{d7edb967-4e3e-4e96-a2f8-9ef9a5427f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SFEAS">
+      <UniqueIdentifier>{1c22a6ad-2c12-41cf-8c41-c310497c650c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SFEAS\Tools">
+      <UniqueIdentifier>{5028ef3b-a714-4da9-a67c-1845d987c652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SFEAS">
+      <UniqueIdentifier>{a9492d8e-65b0-4e4f-9a2a-35798b1a6d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SFEAS\Tools">
+      <UniqueIdentifier>{71d27390-f828-4cb4-8f32-6ae8ba8606e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Print\Tools">
+      <UniqueIdentifier>{381f0c8a-c5de-4e56-bcc1-dda0dae6f871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Print\Tools">
+      <UniqueIdentifier>{0029c6b1-571b-4b6b-85da-66cf3ec37ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Timer">
+      <UniqueIdentifier>{d54b9952-6c9e-4a0e-be0c-5100eb7557ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Timer">
+      <UniqueIdentifier>{78fae610-cf6a-42cb-861f-ea044baac4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Timer\Tools">
+      <UniqueIdentifier>{c0922138-eaa3-4ba6-9e21-1ec5dd9be2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Timer\Tools">
+      <UniqueIdentifier>{9786f3ca-3577-485b-a0e2-15eaac0c0b57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\sfeasEntry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Elem45.cpp">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Elem63.cpp">
+      <Filter>源文件\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Global\SolutionVar.cpp">
+      <Filter>源文件\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Global\GlobalVar.cpp">
+      <Filter>源文件\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Global\Files.cpp">
+      <Filter>源文件\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Initialize\ElemList.cpp">
+      <Filter>源文件\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Initialize\Initialize.cpp">
+      <Filter>源文件\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Initialize\SoluList.cpp">
+      <Filter>源文件\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Initialize\MatList.cpp">
+      <Filter>源文件\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KACCE.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KANTYPE.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KCURVE.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KDAMP.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KDISP.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KEIGSLV.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KELEM.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KETYPE.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KEQUSLV.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KFORCE.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KFREQ.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KGENEOUT.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KHISTOUT.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KLUMPM.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KMAT.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KMDAMP.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KMODEXT.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KNODE.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KNSETS.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KTAINTM.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KTAINTP.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KTIME.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Keyword\KVELO.cpp">
+      <Filter>源文件\Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Loads\DFALoads.cpp">
+      <Filter>源文件\Loads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Loads\DTALoads.cpp">
+      <Filter>源文件\Loads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Loads\MFALoads.cpp">
+      <Filter>源文件\Loads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Loads\MOALoads.cpp">
+      <Filter>源文件\Loads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Loads\MTALoads.cpp">
+      <Filter>源文件\Loads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Loads\Tools\getDVAValue.cpp">
+      <Filter>源文件\Loads\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Loads\Tools\getFixedBnd.cpp">
+      <Filter>源文件\Loads\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Material\MatIsoElastic.cpp">
+      <Filter>源文件\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\outputGlobalMatrix.cpp">
+      <Filter>源文件\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Print\printMsg.cpp">
+      <Filter>源文件\Print</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\MathSolver\MathSolver.cpp">
+      <Filter>源文件\MathSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Tools\getIndex.cpp">
+      <Filter>源文件\Element\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Loads\STALoads.cpp">
+      <Filter>源文件\Loads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Tools\shapeFunc45.cpp">
+      <Filter>源文件\Element\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Tools\jacobiMat45.cpp">
+      <Filter>源文件\Element\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Tools\getDetInvMatrix.cpp">
+      <Filter>源文件\Element\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Tools\calStrainExtraMat.cpp">
+      <Filter>源文件\Element\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Tools\getBMat45.cpp">
+      <Filter>源文件\Element\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Element\Tools\getNMat45.cpp">
+      <Filter>源文件\Element\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Initialize\Tools\guassIntePoint45.cpp">
+      <Filter>源文件\Initialize\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Initialize\initCSRIndex.cpp">
+      <Filter>源文件\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\DFASolu.cpp">
+      <Filter>源文件\Solu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\DTASolu.cpp">
+      <Filter>源文件\Solu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\MFASolu.cpp">
+      <Filter>源文件\Solu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\MOASolu.cpp">
+      <Filter>源文件\Solu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\MTASolu.cpp">
+      <Filter>源文件\Solu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\STASolu.cpp">
+      <Filter>源文件\Solu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\Tools\calDamp.cpp">
+      <Filter>源文件\Solu\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\Tools\calModalGD.cpp">
+      <Filter>源文件\Solu\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\Tools\getDisVelAcc.cpp">
+      <Filter>源文件\Solu\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\Tools\getNewAcce.cpp">
+      <Filter>源文件\Solu\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Solu\Tools\getTimeIntegral.cpp">
+      <Filter>源文件\Solu\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Initialize\LoadsList.cpp">
+      <Filter>源文件\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\calESTRA.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\calNSTRA.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\calNSTRE.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\updateU.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\SFEAS\SFEAS.cpp">
+      <Filter>源文件\SFEAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\SFEAS\Tools\delKeyword.cpp">
+      <Filter>源文件\SFEAS\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\SFEAS\Tools\readInput.cpp">
+      <Filter>源文件\SFEAS\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\SFEAS\Tools\readKeyword.cpp">
+      <Filter>源文件\SFEAS\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\SFEAS\Tools\getFileFromWindows.cpp">
+      <Filter>源文件\SFEAS\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Print\Tools\getDateTime.cpp">
+      <Filter>源文件\Print\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\GeneralOutput\STAGeneOut.cpp">
+      <Filter>源文件\Output\GeneralOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\GeneralOutput\MOAGeneOut.cpp">
+      <Filter>源文件\Output\GeneralOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\GeneralOutput\TAGeneOut.cpp">
+      <Filter>源文件\Output\GeneralOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\GeneralOutput\FAGeneOut.cpp">
+      <Filter>源文件\Output\GeneralOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\HistoryOutput\STAHistOut.cpp">
+      <Filter>源文件\Output\HistoryOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\HistoryOutput\MOAHistOut.cpp">
+      <Filter>源文件\Output\HistoryOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\HistoryOutput\TAHistOut.cpp">
+      <Filter>源文件\Output\HistoryOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\HistoryOutput\FAHistOut.cpp">
+      <Filter>源文件\Output\HistoryOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Initialize\OutputList.cpp">
+      <Filter>源文件\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\dispOutput.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\stressOutput.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\strainOutput.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\veloOutput.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\acceOutput.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\isGeneOut.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\isHistOut.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Output\Tools\calESTRE.cpp">
+      <Filter>源文件\Output\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Timer\Timer.cpp">
+      <Filter>源文件\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Timer\Tools\getWallTime.cpp">
+      <Filter>源文件\Timer\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Timer\Tools\getCPUTime.cpp">
+      <Filter>源文件\Timer\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Element\Elem45.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Elem63.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Element.h">
+      <Filter>头文件\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Global\Files.h">
+      <Filter>头文件\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Global\GlobalVar.h">
+      <Filter>头文件\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Global\SolutionVar.h">
+      <Filter>头文件\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Initialize\ElemList.h">
+      <Filter>头文件\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Initialize\Initialize.h">
+      <Filter>头文件\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Initialize\SoluList.h">
+      <Filter>头文件\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Initialize\MatList.h">
+      <Filter>头文件\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KACCE.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KANTYPE.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KCURVE.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KDAMP.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KDISP.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KEIGSLV.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KELEM.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KETYPE.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KEQUSLV.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\Keyword.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KFORCE.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KFREQ.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KGENEOUT.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KHISTOUT.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KLUMPM.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KMAT.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KMDAMP.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KMODEXT.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KNODE.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KNSETS.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KTAINTM.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KTAINTP.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KTIME.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Keyword\KVELO.h">
+      <Filter>头文件\Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\DFALoads.h">
+      <Filter>头文件\Loads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\DTALoads.h">
+      <Filter>头文件\Loads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\Loads.h">
+      <Filter>头文件\Loads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\MFALoads.h">
+      <Filter>头文件\Loads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\MOALoads.h">
+      <Filter>头文件\Loads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\MTALoads.h">
+      <Filter>头文件\Loads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\STALoads.h">
+      <Filter>头文件\Loads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\Tools\getDVAValue.h">
+      <Filter>头文件\Loads\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Loads\Tools\getFixedBnd.h">
+      <Filter>头文件\Loads\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Material\Material.h">
+      <Filter>头文件\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Material\MatIsoElastic.h">
+      <Filter>头文件\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Print\PrintMsg.h">
+      <Filter>头文件\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\MathSolver\MathSolver.h">
+      <Filter>头文件\MathSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\GeneralOutput\GeneOut.h">
+      <Filter>头文件\Output\GeneralOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\HistoryOutput\HistOut.h">
+      <Filter>头文件\Output\HistoryOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Tools\getIndex.h">
+      <Filter>头文件\Element\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\DataType\Matrix.h">
+      <Filter>头文件\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Tools\shapeFunc45.h">
+      <Filter>头文件\Element\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Tools\jacobiMat45.h">
+      <Filter>头文件\Element\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Tools\getDetInvMatrix.h">
+      <Filter>头文件\Element\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Tools\calStrainExtraMat.h">
+      <Filter>头文件\Element\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Tools\getBMat45.h">
+      <Filter>头文件\Element\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Element\Tools\getNMat45.h">
+      <Filter>头文件\Element\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Initialize\Tools\guassIntePoint45.h">
+      <Filter>头文件\Initialize\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Initialize\initCSRIndex.h">
+      <Filter>头文件\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\DFASolu.h">
+      <Filter>头文件\Solu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\DTASolu.h">
+      <Filter>头文件\Solu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\MFASolu.h">
+      <Filter>头文件\Solu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\MOASolu.h">
+      <Filter>头文件\Solu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\MTASolu.h">
+      <Filter>头文件\Solu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\Solu.h">
+      <Filter>头文件\Solu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\STASolu.h">
+      <Filter>头文件\Solu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Initialize\LoadsList.h">
+      <Filter>头文件\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\outputGlobalMatrix.h">
+      <Filter>头文件\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\calESTRA.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\calESTRE.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\calNSTRA.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\calNSTRE.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\updateU.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\Tools\calDamp.h">
+      <Filter>头文件\Solu\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\Tools\calModalGD.h">
+      <Filter>头文件\Solu\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\Tools\getDisVelAcc.h">
+      <Filter>头文件\Solu\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\Tools\getNewAcce.h">
+      <Filter>头文件\Solu\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Solu\Tools\getTimeIntegral.h">
+      <Filter>头文件\Solu\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\SFEAS\Tools\delKeyword.h">
+      <Filter>头文件\SFEAS\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\SFEAS\Tools\readInput.h">
+      <Filter>头文件\SFEAS\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\SFEAS\Tools\readKeyword.h">
+      <Filter>头文件\SFEAS\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\SFEAS\SFEAS.h">
+      <Filter>头文件\SFEAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\SFEAS\Tools\getFileFromWindows.h">
+      <Filter>头文件\SFEAS\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Print\Tools\getDataTime.h">
+      <Filter>头文件\Print\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\GeneralOutput\STAGeneOut.h">
+      <Filter>头文件\Output\GeneralOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\GeneralOutput\MOAGeneOut.h">
+      <Filter>头文件\Output\GeneralOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\GeneralOutput\TAGeneOut.h">
+      <Filter>头文件\Output\GeneralOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\GeneralOutput\FAGeneOut.h">
+      <Filter>头文件\Output\GeneralOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\HistoryOutput\STAHistOut.h">
+      <Filter>头文件\Output\HistoryOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\HistoryOutput\MOAHistOut.h">
+      <Filter>头文件\Output\HistoryOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\HistoryOutput\TAHistOut.h">
+      <Filter>头文件\Output\HistoryOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\HistoryOutput\FAHistOut.h">
+      <Filter>头文件\Output\HistoryOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Initialize\OutputList.h">
+      <Filter>头文件\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\dispOutput.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\stressOutput.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\strainOutput.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\veloOutput.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\acceOutput.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\isGeneOut.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Output\Tools\isHistOut.h">
+      <Filter>头文件\Output\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Timer\Timer.h">
+      <Filter>头文件\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Timer\Tools\getWallTime.h">
+      <Filter>头文件\Timer\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Timer\Tools\getCPUTime.h">
+      <Filter>头文件\Timer\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
