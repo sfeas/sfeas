@@ -329,7 +329,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)/../Lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libdmumps.lib;libzmumps.lib;libmumps_common.lib;libmetis.lib;libpord.lib;libmpiseq.lib;arpack-ng.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdmumps.lib;libzmumps.lib;libmumps_common.lib;libmetis.lib;libpord.lib;libmpiseq.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -350,7 +350,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)/../Lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libdmumps.lib;libzmumps.lib;libmumps_common.lib;libmetis.lib;libpord.lib;libmpiseq.lib;arpack-ng.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libdmumps.lib;libzmumps.lib;libmumps_common.lib;libmetis.lib;libpord.lib;libmpiseq.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
